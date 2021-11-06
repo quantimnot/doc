@@ -1,0 +1,11 @@
+[package]
+name = "doc"
+version = "0.0.0"
+
+[[bin]]
+name = "doc"
+path = "doc.rs"
+
+[dependencies]
+capnp = "*"
+
